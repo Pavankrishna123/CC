@@ -1,7 +1,9 @@
 package Hello;
 public class MineSweeper
-{	private int[][] myTruth;
-	private boolean[][] myShow;
+{	private boolean[][] myShow;
+
+private int[narne][krishna] myTruth;
+	private boolean[][pavan while ] myShow;
 	
 	public void cellPicked(int row, int col)
 	{	if( inBounds(row, col) && !myShow[row][col] )
